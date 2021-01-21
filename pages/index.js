@@ -6,23 +6,15 @@ import PlataformasDigitaisHorizontal from '../components/plataformashorizontal'
 const Home = () => (
   <div className='bg-black'>
     <Head>
-      <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-      <script
-        src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        crossorigin></script>
 
-      <script
-        src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        crossorigin></script>
-      
       <title>Banda Segunda Janela</title>
       <link rel="canonical" href="http://segundajanela.com.br"></link>
       <meta name='description' content='Banda potiguar independente formada em 2020 que mistura influências de rock indie, pop, pop-rock, rock alternativo pra formar a própria identidade musical.' />
       <meta name='robots' content='index, follow' />
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-      <meta charset='UTF-8' />
+      <meta charSet='UTF-8' />
       <meta httpEquiv='content-language' content='pt-br'/>
-      <meta httpEquiv='content-type' content='text/html' charset='UTF-8'/>
+      <meta httpEquiv='content-type' content='text/html' charSet='UTF-8'/>
       <meta name="abstract" content="EP Meio do caminho disponível em todas as plataformas digitais"/>
       <meta name="keywords" content=" mpb rock  musica  arte   pop       spotify indie   lançamento guitarra banda baixista bateria  artistas independentes  indie   musica nova brasil segundajanela seu olhar por ai vestido xadrez azul janela banda potiguar brasileira"/>
       <meta name="robot" content="All"/>
