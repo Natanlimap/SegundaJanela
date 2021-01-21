@@ -5,16 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
+
   },
   "dependencies": {
-    "next": "^9.3.2",
+    "next": "^10.0.5",
+    "next-sitemap": "^1.4.5",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.0.6",
-    "autoprefixer": "^9.7.4",
-    "tailwindcss": "^1.1.4"
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "tailwindcss": "^1.9.6"
   }
 }
