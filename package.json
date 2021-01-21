@@ -16,7 +16,8 @@
     "popper.js": "^1.16.1",
     "react": "16.10.0",
     "react-bootstrap": "^1.4.3",
-    "react-dom": "16.10.0"
+    "react-dom": "16.10.0",
+    "react-responsive-animate-navbar": "^1.1.8"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",

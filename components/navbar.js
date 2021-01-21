@@ -1,35 +1,41 @@
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 import Image from 'next/image'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function NavBar() {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
-                <Navbar.Brand href="#home">
+            <nav class="nav flex flex-wrap items-center justify-between px-4">
+                <div class="flex flex-no-shrink items-center mr-6 py-3 text-color">
+                    <div className='mx-2'>
                     <Image
                         src='/logo.png'
-                        alt="Logo da Banda Segunda Janela. Esta logo é uma Janela curvada com duas aberturas e vidrais em cima formado uma meia lua"
-                        width={25}
-                        height={30}
-                        >
-                        
-                    </Image>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                       
-                    </Nav>
-                    <Nav>
-                        <Nav.Link href="/"><h1 className='text-base mx-3'>Inicio</h1></Nav.Link>
-                        <Nav.Link href="/meiodocaminho"><h2 className='text-base mx-3'>Meio do caminho</h2></Nav.Link>
-                        <Nav.Link href="/sobre"><h3 className='text-base mx-3'>Sobre nós</h3></Nav.Link>
-                        <Nav.Link href="/contato"><h4 className='text-base mx-3'>Contato</h4></Nav.Link>
+                        width={28}
+                        height={33}
+                    />
+                    </div>
+                </div>
 
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+                <input class="menu-btn hidden" type="checkbox" id="menu-btn" />
+                <label class="menu-icon block cursor-pointer md:hidden px-2 py-4 relative select-none"  for="menu-btn">
+                    <span class="navicon bg-grey-darkest flex items-center relative"></span>
+                </label>
+
+                <ul class="menu  md:border-none flex justify-end list-reset m-0 w-full md:w-auto">
+                    <li class=" md:border-none">
+                        <a href="/" class="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker font-bold">Início</a>
+                    </li>
+
+                    <li class=" md:border-none">
+                        <a href="/meiodocaminho" class="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Meio do caminho</a>
+                    </li>
+
+                    <li class=" md:border-none">
+                        <a href="/sobre" class="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Sobre nós</a>
+                    </li>
+                    <li class=" md:border-none">
+                        <a href="/contato" class="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     )
 }
