@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import NavBar from '../components/navbar';
 import PlataformasDigitaisHorizontal from '../components/plataformashorizontal'
+import Instagram from '../components/instagram';
 
 const Home = () => (
   <div className='bg-black'>
@@ -45,7 +46,6 @@ const Home = () => (
         <PlataformasDigitaisHorizontal/>
       </div>
     </main>
-
   </div>
 );
 

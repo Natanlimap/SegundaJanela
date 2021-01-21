@@ -13,6 +13,22 @@
     background-size: cover;
     background-position: center;
 }
+.bg-outros{
+  background-color: black;
+  background-image: url('./public/background-geral.png');
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+
+}
+.musicImage{
+  width: 200px !important;
+  height: 200px;
+}
+
 .bg-main{
     height: 75.666667%;
 }

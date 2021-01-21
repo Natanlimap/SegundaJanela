@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function NavBar() {
     return (
@@ -26,11 +27,11 @@ export default function NavBar() {
                     </li>
 
                     <li className=" md:border-none">
-                        <a href="/meiodocaminho" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Meio do caminho</a>
+                    <Link href="/meiodocaminho"> <a href="/meiodocaminho" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Meio do caminho</a></Link>
                     </li>
 
                     <li className=" md:border-none">
-                        <a href="/sobre" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Sobre nós</a>
+                        <Link href="/sobre"><a href="#" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Sobre nós</a></Link>
                     </li>
                     <li className=" md:border-none">
                         <a href="/contato" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Contato</a>
