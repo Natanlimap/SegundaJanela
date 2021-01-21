@@ -4,3 +4,28 @@
 /* purgecss end ignore */
 
 @tailwind utilities;
+
+
+.bg-fusca{
+    background-color: black;
+    background-image: url('./public/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-main{
+    height: 75.666667%;
+}
+.bg-color{
+    background-color: rgba(0, 8, 13, 1);
+}
+.text-color{
+    color: rgba(255, 255, 255, 0.7);
+}
+@media screen and (max-width: 720px){
+    .bg-fusca{
+        background-image: url('./public/background-mobile.png');
+        background-size: contain;
+        background-color: rgba(0, 8, 13, 1);
+    }
+}

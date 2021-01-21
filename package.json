@@ -7,13 +7,16 @@
     "build": "next build",
     "start": "next start",
     "postbuild": "next-sitemap"
-
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^1.9.1",
     "next": "^10.0.5",
     "next-sitemap": "^1.4.5",
-    "react": "16.9.0",
-    "react-dom": "16.9.0"
+    "popper.js": "^1.16.1",
+    "react": "16.10.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "16.10.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",

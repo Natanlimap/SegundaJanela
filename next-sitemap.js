@@ -1,4 +1,4 @@
 module.exports = {
-    siteUrl: 'https://segundajanela.vercel.app/',
+    siteUrl: 'https://segundajanela.com.br',
     generateRobotsTxt: true,
 }
