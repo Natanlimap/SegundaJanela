@@ -6,7 +6,7 @@ const Sobre = () => (
        <NavBar/>
         <div className='lg:mx-64 mx-20 mt-20'>
             <div className='rounded'>
-                <Image src='/sobre.png' width={3000} height={1200} />
+                <Image src='/sobre.png' width={3000} height={1200} alt='Imagem da gente em gravando as musicas' />
             </div>
             <div className='lg:py-20 lg:px-20 py-5 px-5 text-center md:text-left h-full bg-gray-900 rounded text-white '>
                 <h1 className='text-6xl font-bold tracking-widest'>Sobre nós</h1>
