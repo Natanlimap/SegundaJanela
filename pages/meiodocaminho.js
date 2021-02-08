@@ -1,7 +1,7 @@
 import MusicaDesc from "../components/musicaDesc";
 import NavBar from "../components/navbar";
 
-const Sobre = () => (
+const Album = () => (
     <div className=' bg-outros'>
         <NavBar />
         <div>
@@ -26,4 +26,4 @@ const Sobre = () => (
     </div>
 )
 
-export default Sobre;
+export default Album;
