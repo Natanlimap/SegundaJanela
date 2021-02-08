@@ -33,9 +33,7 @@ export default function NavBar() {
                     <li className=" md:border-none">
                         <Link href="/sobre"><a href="#" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Sobre nós</a></Link>
                     </li>
-                    <li className=" md:border-none">
-                        <a href="/contato" className="block md:inline-block px-4 py-3 no-underline text-color hover:text-grey-darker">Contato</a>
-                    </li>
+                 
                 </ul>
             </nav>
         </div>
